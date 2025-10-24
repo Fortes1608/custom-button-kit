@@ -94,6 +94,9 @@
 			);
 			mainGroup = 860044C52EABE67E00980251;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				860044E22EABEC1100980251 /* XCRemoteSwiftPackageReference "custom-button-kit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 860044CF2EABE67E00980251 /* Products */;
 			projectDirPath = "";
@@ -328,6 +331,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		860044E22EABEC1100980251 /* XCRemoteSwiftPackageReference "custom-button-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Fortes1608/custom-button-kit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 860044C62EABE67E00980251 /* Project object */;
 }

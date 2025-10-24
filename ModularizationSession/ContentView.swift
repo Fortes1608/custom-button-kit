@@ -6,12 +6,11 @@
 //
 
 import SwiftUI
+import CustomButtonKit
 
 struct ContentView: View {
     var body: some View {
-        Button("Title"){
-            
-        }
+            CustomButton(title: "Title", action: {})
     }
 }
 
